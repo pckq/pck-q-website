@@ -1,0 +1,305 @@
+body {
+  line-height: 1.8;
+  font: 400 15px "Muli", sans-serif;
+  background-color: #f4f7f6;
+  color: #202121;
+}
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #2aa3dd;
+  /* color: #787985; */
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+h5 {
+  margin-bottom: 30px;
+  color: #444;
+}
+.jumbotron {
+  color: #fff;
+  padding: 100px 25px;
+  font-family: "Montserrat", sans-serif;
+}
+.container-fluid {
+  padding: 50px 40px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+.navbar {
+  margin-bottom: 0;
+  /* background-color: #202121; */
+  background-color: rgb(64, 76, 96);
+  z-index: 10;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font: Abel, sans-serif;
+}
+.navbar li a {
+  color: #fff !important;
+}
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #2aa3dd !important;
+}
+.slideanim {
+  visibility: hidden;
+}
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4,
+  .col-sm-6 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 150px;
+  }
+}
+.header {
+  background-image: url("../assets/mock_demo/MainPagePhoto1.jpg");
+  height: 430px;
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-video {
+  background-image: url("../assets/mock_demo/video-page-pic.jpg");
+  height: 430px;
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-publication {
+  background-image: url("../assets/mock_demo/publication_page.jpg");
+  height: 430px;
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.max-width {
+  max-width: 1200px;
+}
+.navbar-brand img {
+  height: 30px;
+  margin-top: -7px;
+}
+#countdown-timer {
+  font-size: 36px;
+  font-weight: bold;
+}
+#speakers h2 {
+  margin-bottom: 30px;
+}
+#speakers h4 {
+  color: #2aa3dd;
+  margin-bottom: 10px;
+}
+#speakers a {
+  text-decoration: none;
+}
+#speakers a:hover {
+  text-decoration: none;
+}
+.speaker-list {
+  margin-top: 20px;
+}
+.thumbnail-circle {
+  height: 200px;
+  width: 200px;
+  background-color: #555;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.thumbnail-circle:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.speaker-logo {
+  max-width: 250px;
+}
+.program-table {
+  overflow-x: auto;
+  margin-left: 85px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  min-width: 250px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.headcol {
+  position: absolute;
+  left: 15px;
+}
+#program {
+  position: relative;
+}
+.lecturer {
+  width: 100%;
+  display: inline-block;
+  font-size: 12px;
+  color: #777;
+}
+.location-container {
+  height: 100%;
+}
+.location-school-info {
+  font-size: 15px;
+}
+#footer {
+  /*background-color: #202121;*/
+  background-color: rgb(64, 76, 96);
+  margin-bottom: 0px;
+}
+.contact-email,
+.contact-email a {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 40px;
+  border-radius: 25px;
+}
+.chip a {
+  color: #fff;
+  font-size: 14px;
+}
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.copyright {
+  color: #fff;
+  margin: auto;
+  margin-top: 40px;
+}
+.research-profile-link,
+.linkedIn-link,
+.facebook-profile-link {
+  margin-left: 5px;
+}
+.contact-us-info {
+  margin: auto;
+}
+.sponsor-logo img {
+  max-width: 230px;
+}
+.sponsors-info {
+  margin-bottom: 20px;
+}
+.organizer h4 {
+  color: #49c5b6;
+}
+.organizers-text {
+  margin-top: 32px;
+}
+.sponsor-logo .kmutnb-logo {
+  width: 100px;
+}
+.organizers-list {
+  margin-top: 10px;
+}
+.payment-link-container {
+  width: 60%;
+  text-align: center;
+  background-color: #49c5b6;
+  height: 40px;
+  padding-top: 6px;
+  border-radius: 30px;
+  margin-left: 20%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.registration-link {
+  color: #fff;
+}
+.registration-academic h4,
+.registration-industry h4 {
+  margin-bottom: 10px;
+}
+.jumbotron h1 {
+  margin-top: 0px;
+}
+
+.speaker h3 {
+  color: #2aa3dd;
+  font-weight: bold;
+}
+
+.speaker h4 {
+  color: #444 !important;
+  font-weight: bold;
+}
+
+.speaker h5 {
+  text-align: justify;
+  text-indent: 30px;
+  font-weight: bold;
+}
