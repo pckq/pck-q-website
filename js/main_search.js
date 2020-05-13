@@ -195,7 +195,7 @@ function displayMatches(e) {
     "sponsor"
   );
   const sponsor =
-    sponsorList || sponsorList
+    sponsorTitle || sponsorList
       ? renderSponsor({
           title: sponsorTitle ? sponsorTitle : sections.sponsor.title,
           sponsors: sponsorList ? sponsorList : sections.sponsor.sponsors,
