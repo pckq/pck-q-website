@@ -303,3 +303,8 @@ tr:nth-child(even) {
   text-indent: 30px;
   font-weight: bold;
 }
+
+#x_ {
+  text-align: justify;
+  text-indent: 80px;
+}

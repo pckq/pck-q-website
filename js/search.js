@@ -62,6 +62,6 @@ function showList() {
 const serachInput = document.querySelector(".search");
 const suggestions = document.querySelector(".suggestions");
 
-serachInput.addEventListener("change", displayMatches);
+// serachInput.addEventListener("change", displayMatches);
 serachInput.addEventListener("keyup", displayMatches);
 // showList();

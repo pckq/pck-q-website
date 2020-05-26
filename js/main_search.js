@@ -1,10 +1,10 @@
 const sections = {
   intro: {
     title: "project introduction",
-    detail: `<h4 class="about-school-detail" style="text-align: justify;text-indent: 80px;">We propose the first stage of a program of research aiming to improve the training of Student Assistants (SA), which are composed of graduate teaching assistants and undergraduate learning assistants, in the context of inquiry-based introductory physics classes. In stage one, which consists of three phases, we will design and validate an instrument to measure SAs’ Pedagogical Content Knowledge of questioning (PCK-Q) and then develop hierarchical linear models (HLM) to comprehensively describe the influence of SAs’ PCK-Q on college students’ conceptual understanding of physics and critical thinking skills. The project will also yield qualitative data suggesting effective strategies for SA training and SA-student interaction in an inquiry-oriented setting. </h4>
-    <h4 class="about-school-detail" style="text-align: justify;text-indent: 80px;">In the first phase, we will examine SAs’ questions that stimulate active interaction or productive learning of students. In the first phase, we will capture videos of SAs interacting with students during classes of classic mechanics and electromagnetism. From the videos, we will identify scenarios where SAs either manage or fail to initiate active responses from students with questions, such as those expose student misconception or prompt ideas about lab design. Then we will convert some scenarios into open-ended questions as the first version of the PCK-Q test. In the second phase, we will administer PCK-Q Version 1 validated from Phase 1 with SAs and use their answers to develop options with which we will transform the open-ended into multiple-choice questions. The validated multiple-choice questions comprise the second version of the PCK-Q test. The process of developing and validating both versions of the PCK-Q test will also yield qualitative data that contribute to the assessment and adjustment of SA training strategies. In the third phase, we will use PCK-Q Version 2 to measure SAs’ PCK-Q and build HLMs how SAs’ PCK-Q account for college students’ conceptual understanding of introductory physics and critical thinking skills.</h4>  
-    <h4 class="about-school-detail" style="text-align: justify;text-indent: 80px;">Reform in the teaching of college-level introductory physics has promoted a shift from lecturing and factual recitation to interactive learning and conceptual understanding, as embodied in the “inquiry method.” Increasing enrollment in physics (and other STEM) classes requires the services of large numbers of SAs. There is some evidence that SA programs promote student learning, but no understanding of the mechanism of this connection. It is assumed that SA programs aid in improving student thinking, but we lack evidence to support this assumption, or any determination of how this transfer occurs. We believe that SAs knowledge of PCK-Q is at the heart of what makes for successful SA support. Specifically, we hypothesize that SAs’ sophisticated levels of PCK-Q will enable them to improve their abilities to prompt student thinking and scaffold group interaction in inquiry-based classrooms. PCK and the training of SA are not new concepts. What is innovative about our approach is 1) developing both the open-ended and multiple-choice versions of an instrument that can validly and reliably assess SAs’ PCK-Q; and 2) building hierarchical linear models that contribute to a comprehensive understanding of the role of SAs’ PCK-Q in college students’ physics learning. Our proposed study will benefit the field of undergraduate physics instruction by adding new insights into how SAs may best serve student learning in introductory physics classrooms. Long-term benefits include increased efficiency and lower costs of physics education, and adaptions for use in other STEM fields.</h4>
-    <h4 class="about-school-detail" style="text-align: justify;text-indent: 80px;">The proposed research will initially benefit physics instruction at Texas Tech University. The products from this research will be made available to physics instructors across the country, and the instrument can be modified for use in other STEM disciplines. A common strategy in universities nationwide is to decrease costs by using SAs to assist in providing STEM instruction. By monitoring the quality of SAs through our PCK-Q instrument, we have the potential to better prepare SAs to act as instructional leads in inquiry-based classrooms and enhance college-level physics and other STEM education throughout the United States.</h4>`,
+    detail: `<h4 id="x_">We propose the first stage of a program of research aiming to improve the training of Student Assistants (SA), which are composed of graduate teaching assistants and undergraduate learning assistants, in the context of inquiry-based introductory physics classes. In stage one, which consists of three phases, we will design and validate an instrument to measure SAs’ Pedagogical Content Knowledge of questioning (PCK-Q) and then develop hierarchical linear models (HLM) to comprehensively describe the influence of SAs’ PCK-Q on college students’ conceptual understanding of physics and critical thinking skills. The project will also yield qualitative data suggesting effective strategies for SA training and SA-student interaction in an inquiry-oriented setting. </h4>
+    <h4 id="x_">In the first phase, we will examine SAs’ questions that stimulate active interaction or productive learning of students. In the first phase, we will capture videos of SAs interacting with students during classes of classic mechanics and electromagnetism. From the videos, we will identify scenarios where SAs either manage or fail to initiate active responses from students with questions, such as those expose student misconception or prompt ideas about lab design. Then we will convert some scenarios into open-ended questions as the first version of the PCK-Q test. In the second phase, we will administer PCK-Q Version 1 validated from Phase 1 with SAs and use their answers to develop options with which we will transform the open-ended into multiple-choice questions. The validated multiple-choice questions comprise the second version of the PCK-Q test. The process of developing and validating both versions of the PCK-Q test will also yield qualitative data that contribute to the assessment and adjustment of SA training strategies. In the third phase, we will use PCK-Q Version 2 to measure SAs’ PCK-Q and build HLMs how SAs’ PCK-Q account for college students’ conceptual understanding of introductory physics and critical thinking skills.</h4>  
+    <h4 id="x_">Reform in the teaching of college-level introductory physics has promoted a shift from lecturing and factual recitation to interactive learning and conceptual understanding, as embodied in the “inquiry method.” Increasing enrollment in physics (and other STEM) classes requires the services of large numbers of SAs. There is some evidence that SA programs promote student learning, but no understanding of the mechanism of this connection. It is assumed that SA programs aid in improving student thinking, but we lack evidence to support this assumption, or any determination of how this transfer occurs. We believe that SAs knowledge of PCK-Q is at the heart of what makes for successful SA support. Specifically, we hypothesize that SAs’ sophisticated levels of PCK-Q will enable them to improve their abilities to prompt student thinking and scaffold group interaction in inquiry-based classrooms. PCK and the training of SA are not new concepts. What is innovative about our approach is 1) developing both the open-ended and multiple-choice versions of an instrument that can validly and reliably assess SAs’ PCK-Q; and 2) building hierarchical linear models that contribute to a comprehensive understanding of the role of SAs’ PCK-Q in college students’ physics learning. Our proposed study will benefit the field of undergraduate physics instruction by adding new insights into how SAs may best serve student learning in introductory physics classrooms. Long-term benefits include increased efficiency and lower costs of physics education, and adaptions for use in other STEM fields.</h4>
+    <h4 id="x_">The proposed research will initially benefit physics instruction at Texas Tech University. The products from this research will be made available to physics instructors across the country, and the instrument can be modified for use in other STEM disciplines. A common strategy in universities nationwide is to decrease costs by using SAs to assist in providing STEM instruction. By monitoring the quality of SAs through our PCK-Q instrument, we have the potential to better prepare SAs to act as instructional leads in inquiry-based classrooms and enhance college-level physics and other STEM education throughout the United States.</h4>`,
   },
   video: {
     title: "demo videos",
@@ -67,6 +67,17 @@ const sections = {
     title: "location",
     address: "Texas Tech University 2500 Broadway Lubbock, Texas 79409",
   },
+};
+
+const pageContent = {
+  pages: [
+    {
+      title: "SAMPLE PCK-Q QUESTIONS",
+      url: "https://www.pck-q-ttu.com/pckq.html",
+      detail:
+        "Preliminary open-ended PCK-Q questionSAMPLE PCK-Q QUESTIONS PCK-CM-1Context: Students are conducting a lab about free falling. They are required to use a motion detector to draw position vs. time (s-t),velocity vs. time (v-t), and acceleration vs. time (a-t) graphs of the free falling of three different objects, a book, a small basketball, and a box. The motion detector is held above the objects, facing downward. Moving away from the detector is recorded as the positive direction. She wants to check whether the students understand the relationship between s-t, v-t, and a-t graphs. Below is the conversation she has with themSA: What does the position graph tell you?S: It hit the ground and stopped.SA: OK. Does the velocity graph match the position graph?S: Yes, because it increasesSA: OK. Does the acceleration graph match the velocity graph?S: Yes. If you are increasing at a constant rate, you cannot accelerate. Right?a) What conclusion can you draw about the student’s knowledge based on the information provided above?b) What may be the student’s difficulties? What support or help do you think the student needs from the SA?c) How should the SA respond to the student? Why?",
+    },
+  ],
 };
 
 function findArrayMatches(wordToMatch, arr, section) {
@@ -215,7 +226,16 @@ function displayMatches(e) {
         })
       : "";
 
-  const page = intro + video + team + sponsor + location;
+  const pckPageDetail = pageContent.pages.filter((page) => {
+    if (page.title === "SAMPLE PCK-Q QUESTIONS") {
+      return page.detail;
+    }
+  });
+  const pckQuestion = findStringMatches(this.value, pckPageDetail[0].detail);
+
+  const pckqPage = pckQuestion ? renderPage(pckPageDetail[0]) : "";
+
+  const page = intro + video + team + sponsor + location + pckqPage;
   if (page != "") {
     contentPage.innerHTML = page;
   } else {
@@ -377,6 +397,22 @@ function renderMap(map) {
                         allowfullscreen></iframe>
                 </div>
             </div>
+          </div>`;
+}
+
+function renderPage(page) {
+  return `<div id="about" class="container-fluid max-width">
+            <div class="row">
+              <div class="col-sm-12">
+                <h4 style="
+                  position: relative;
+                  margin: 30px auto;
+                  text-align: center;
+              ">Found in <a href=${page.url} target="_blank">${page.title}</a> page
+              </h4>  
+              <iframe src=${page.url} style="height:800px;width:100%;"></iframe>  
+              </div>
+              </div>
           </div>`;
 }
 
